@@ -1,1 +1,8 @@
 Desagio Fullcycle EAD
+
+Para executar:
+
+docker compose up -d
+Acessar o container go ( docker exec -it <container_id> bash)
+Executar cd cmd/walletcore 
+go run main.go
